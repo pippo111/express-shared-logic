@@ -1,0 +1,10 @@
+<%- include('./_header') %>
+
+<h1>Companies (not migrated)</h1>
+<ul id="users">
+  <% companies.forEach(function(company){ %>
+    <li><%= company.name %></li>
+  <% }) %>
+</ul>
+
+<%- include('./_footer') %>

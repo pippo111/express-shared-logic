@@ -1,0 +1,10 @@
+<%- include('./_header') %>
+
+<h1>Users (migrated)</h1>
+<ul id="users">
+  <% users.forEach(function(user){ %>
+    <li><%= user.name %></li>
+  <% }) %>
+</ul>
+
+<%- include('./_footer') %>
